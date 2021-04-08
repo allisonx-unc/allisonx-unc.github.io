@@ -4,6 +4,7 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 div.cube {
+    position: absolute;
     border: 1px solid black;
     margin-top: 20px;
     margin-bottom: 80px;
@@ -13,8 +14,8 @@ div.cube {
 }
   div.saturn {
       position:fixed;
-      bottom: 10px;
-      left: 8px;
+      top: 50px;
+      right: 100px;
   }
   div.mercury {
     position:fixed;
@@ -51,3 +52,4 @@ div.pluto {
     bottom: 70px;
     right: 70px;
 }
+
